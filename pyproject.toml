@@ -1,0 +1,26 @@
+[project]
+name = "demucs"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "diffq>=0.2.1",
+    "dora-search>=0.1.12",
+    "einops>=0.8.1",
+    "flake8>=7.3.0",
+    "hydra-colorlog>=1.1",
+    "hydra-core>=1.1",
+    "julius>=0.2.3",
+    "lameenc>=1.2",
+    "museval>=0.4.1",
+    "mypy>=1.17.1",
+    "openunmix>=1.3.0",
+    "pyyaml>=6.0.2",
+    "soundfile>=0.10.3",
+    "submitit>=1.5.3",
+    "torch>=1.8.1",
+    "torchaudio>=2.8.0",
+    "tqdm>=4.67.1",
+    "treetable>=0.2.5",
+]

@@ -7,7 +7,7 @@ from pathlib import Path
 from demucs.pretrained import get_model
 from demucs.htdemucs import HTDemucs
 
-DEMUCS_MODEL = "htdemucs"
+DEMUCS_MODEL = "htdemucs_6s"
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Convert Demucs PyTorch models to ONNX')
